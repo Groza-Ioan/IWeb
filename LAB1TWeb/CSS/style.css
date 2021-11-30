@@ -1,0 +1,145 @@
+body{
+    background-image : url('../IMAGINIPOV/povestge_background.jpg'); 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: red;  
+  }
+  
+  
+  table, th, td {
+      border: 1px solid rgb(0, 0, 0);
+      border-collapse: collapse;
+    }
+    th, td {
+      background-color: #aad496;
+    }
+    
+    ul {
+      width: 37.30%;
+      background-color: #555;
+      overflow: auto;
+    }
+    .signup-box {
+  width: 360px;
+  height: 650px;
+  margin: auto;
+  background-color: #bef5ff;
+  border-radius: 3px;
+}
+
+.login-box {
+  width: 360px;
+  height: 400px;
+  margin: auto;
+  border-radius: 3px;
+  background-color: #bef5ff;
+}
+
+.contact-box {
+  width: 650px;
+  height: 900px;
+  margin:  auto;
+  border-radius: 3px;
+  background-color: #bef5ff;
+}
+
+.contact-box form input {
+  
+  width: 600px;
+  padding: 3px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 6px;
+  outline: none;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 15px;
+  color: #350606;
+}
+
+h4 {
+  text-align: center;
+  color: #350606;
+}
+
+form {
+  width: 300px;
+  margin-left: 20px;
+}
+
+form label {
+  display: flex;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #350606;
+}
+
+form input {
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 6px;
+  outline: none;
+}
+
+input[type="submit"] {
+  width: 320px;
+  height: 35px;
+  margin-top: 20px;
+  border: none;
+  background-color: #B84E52;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #350606;
+}
+
+p {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 15px;
+}
+
+.Mesaj {
+  text-align: center;
+  color: #350606;
+  font-size: 15px;
+  margin-top: -10px;
+}
+
+.Mesaj a {
+  color: #B84E52;
+}
